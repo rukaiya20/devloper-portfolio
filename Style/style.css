@@ -1,0 +1,129 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    color:white;
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    left: 1220px;
+    top: 50px;
+    border:0;
+    padding: 18px 35px;
+
+}
+/* header and navigation style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+} 
+nav h2,ul{
+    margin: 50px 200px;
+}
+.nav-titel{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+/* banner */
+.banner{
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-sub-titel{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+.banner-titel{
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.banner-descroption{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.btn-primary-sec{
+    width: 200px;
+    height: 64px;
+    left: 230px;
+    top: 589px;
+    border-radius: 5px;
+    color: white;
+    background: #FD6E0A;
+    border:0;
+    padding: 18px 35px;
+
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+/* about section style */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    background-origin: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.section-titel{
+   
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    
+}
+/* about information style */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-info{
+    
+   
+}
+.info-titel{
+    font-size: 20px;
+    color:#757575 ;
+}
+.info-description{
+   font-weight: 700;
+   font-size: 20px;
+   color: #474747;
+}
